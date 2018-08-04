@@ -2,11 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"></script>
+    <title>Alo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -15,6 +13,7 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
   </head>
@@ -23,7 +22,7 @@
   	<div class="row">
   		<div id="ballMenuContainer">
   <div id="menuBall1" class="menuBall">
-    <a href="#" class="ball blueball">
+    <a href="#" data-title="Let's Party!!"class="ball blueball">
       <div class="menuText">
           Party Info
       </div>
@@ -31,7 +30,7 @@
   </div>
 
   <div id="menuBall2" class="menuBall">
-  	<a href="#" class="ball redball">
+  	<a href="#" data-title="Get to our place!!"class="ball redball">
       <div class="menuText">
           Directions
       </div>
@@ -39,14 +38,14 @@
   </div>
 
   <div id="menuBall3" class="menuBall">
-  	<a href="#" class="ball greenball">
+  	<a href="#" data-title="Our record of times!!" class="ball greenball">
       <div class="menuText">
           The Dairy
       </div>
     </a>
   </div>
 
-  <div id="menuBall4" class="menuBall">
+  <div id="menuBall4" data-title="We love to get in touch!!" class="menuBall">
   	<a href="#" class="ball yellowball">
       <div class="menuText">
           Email Us
@@ -55,6 +54,9 @@
   </div>
   </div>
   	</div>
+    <footer>
+      <p class="footer">Copyright © 2018 Made With <i class="fa fa-heart" style="color:red;" aria-hidden="true"></i> <a href="https://mayankjha.mit-license.org/"> Mayank Jha</a> </p>
+    </footer>
   </div>
 </div>
   </body>
