@@ -1,2 +1,2 @@
 # Alo
-A panoramic view SPA.
+All in alo.
